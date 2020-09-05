@@ -1,10 +1,10 @@
-str1 =input('请输入第一个加数','s');
-str2 =input('请输入第二个加数','s');
+str1 =input('Please input the first 11-base number: ','s');
+str2 =input('Please input the second11-base number: ','s');
 
 len1 = length(str1);
 len2 = length(str2);
 
-num = max(len1 , len2);
+num = max(len1 , len2); 
 adder_num = num+1;
 
 ex_num = abs(len1 - len2);
